@@ -1,0 +1,157 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg-light-custom {
+    background-color: #444;
+}
+
+.navbar-light .navbar-brand {
+    color: #c2c2c2;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+
+.collapse {
+    justify-content: flex-end;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #c2c2c2;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+header {
+    background-image: url("../img/form-background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+input {
+    margin-bottom: 15px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+textarea {
+    margin-bottom: 15px;
+    height: 80px;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#form-header {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.35);
+    margin: 0;
+    color: #fff
+}
+
+#pen {
+    font-size: 4em;
+    columns: #c2c2c2;
+}
+
+#privacyP {
+    color: #c2c2c2;
+    font-size: 14px;
+    text-align: center;
+}
+
+#privacy {
+    color: #e38f42;
+}
+
+#right-area {
+    text-align: center;
+    color: #fff;
+    padding-top: 110px;
+}
+
+h1 {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+p {
+    padding-left: 15px;
+}
+
+#right-area div button {
+    margin: 5px;
+}
+
+#btnsubmit {
+    margin-bottom: 15px;
+}
+
+#main-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#filmik iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#moreHistory {
+    color: #e38f42;
+}
+
+#linkMail {
+    color: #e38f42;
+}
+
+footer {
+    background-color: #f8f8f8;
+}
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+footer p {
+    padding: 0;
+    color: #888;
+}
+
+#section-right p {
+    color: #888;
+}
+
+@media all and (min-width: 450px) and (max-width: 992px) {
+    #filmik {
+        display: flex;
+        justify-content: center;
+    }
+
+    #filmik iframe {
+        height: 315px;
+        width: 516px;
+    }
+
+    #section-right {
+        text-align: center;
+    }
+
+}
