@@ -1,0 +1,73 @@
+@import "_form";
+@import "_footer";
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+    #navigation {
+        display: flex;
+        flex-direction: row;
+        width: 1000px;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 10px;
+
+        #logo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            span {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 2em;
+                color: #ecd407
+            }
+
+            div {
+                padding-left: 10px;
+
+                h1 {
+                    color: white;
+                    margin: 0;
+                }
+            }
+
+        }
+
+        #contact {
+            display: flex;
+            flex-direction: row;
+
+            span {
+                font-size: 2em;
+                color: white;
+                padding-top: 6px;
+            }
+
+            div {
+                padding-left: 7px;
+
+                p {
+                    color: white;
+                    margin: 5px;
+                }
+            }
+
+        }
+    }
+
+
+
+}

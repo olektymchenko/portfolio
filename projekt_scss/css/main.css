@@ -1,0 +1,187 @@
+.form {
+    position: absolute;
+    top: 120px;
+    right: 233px;
+    width: 350px;
+}
+
+.form #textUndexForm {
+    color: white;
+}
+
+.form #textUndexForm span {
+    color: #ecd407;
+}
+
+.form form {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #001d8a;
+    justify-content: flex-start;
+}
+
+.form form h3 {
+    color: white;
+    flex-basis: 100%;
+    padding-left: 10px;
+}
+
+.form form input[type="text"] {
+    flex-basis: 100%;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    height: 20px;
+}
+
+.form form textarea {
+    margin: 10px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    flex-basis: 100%;
+    height: 50px;
+}
+
+.form form input[type="submit"] {
+    height: 60px;
+    width: 90px;
+    background-color: #ecd407;
+    margin-left: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #292929;
+}
+
+footer .fotterClass {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer .fotterClass #number {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+}
+
+footer .fotterClass #number #numberIcon {
+    background-color: #ecd407;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+footer .fotterClass #number div p {
+    color: white;
+    padding: 0;
+}
+
+footer .fotterClass #mail {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 40%;
+}
+
+footer .fotterClass #mailIcon {
+    background-color: #ecd407;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+footer .fotterClass div {
+    color: white;
+}
+
+footer #footerText {
+    text-align: center;
+    font-size: small;
+    flex-basis: 80%;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+header #navigation {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+header #navigation #logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header #navigation #logo span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: #ecd407;
+}
+
+header #navigation #logo div {
+    padding-left: 10px;
+}
+
+header #navigation #logo div h1 {
+    color: white;
+    margin: 0;
+}
+
+header #navigation #contact {
+    display: flex;
+    flex-direction: row;
+}
+
+header #navigation #contact span {
+    font-size: 2em;
+    color: white;
+    padding-top: 6px;
+}
+
+header #navigation #contact div {
+    padding-left: 7px;
+}
+
+header #navigation #contact div p {
+    color: white;
+    margin: 5px;
+}
