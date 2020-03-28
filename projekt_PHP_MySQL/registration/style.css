@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-size: 120%;
+    background: #F8F8FF;
+  }
+  h2{
+      text-align: center;
+  }
+  .header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  form, .content {
+    width: 70%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .input-group textarea{
+    height: 70px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+  }
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+
+.userElement h2{
+  text-align: left;
+} 
+
+#submit_workSpace{
+  margin-top: 15px;
+}
+
+#listOfDates {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  justify-content: space-around;
+}
+#listOfDates h3{
+  text-align: center;
+}
+.userElement{
+  border: 1px solid black;
+  flex-basis: 45%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+
+#submitWorkSpace{
+    background-color: green;
+    border: 1px solid green;
+    margin-top: 20px;
+    position: absolute;
+    top: 70px;
+    right: 215px;
+}
+#submitUserWithWorkPlace{
+  background-color: green;
+    border: 1px solid green;
+    margin-top: 20px;
+    position: absolute;
+    top: 105px;
+    right: 215px;
+}
+#removeWorkSpaceAndEquipmentBtn{
+  background-color: green;
+    border: 1px solid green;
+    margin-top: 20px;
+    position: absolute;
+    top: 137px;
+    right: 215px;
+}
+#addWorkSpace{
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+  color:white;
+  margin-top: 20px;
+  position: absolute;
+  top: 122px;
+  right: 854px;
+}
+#addWorkEquipment{
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+  color:white;
+  margin-top: 20px;
+  position: absolute;
+  top: 122px;
+  right: 550px;
+}
